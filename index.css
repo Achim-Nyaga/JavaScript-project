@@ -6,11 +6,6 @@ body {
     text-align: center;
 }
 
-.interact {
-    background-color: aquamarine;
-    border: 2px black;
-    
-}
 h1 {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -40,4 +35,15 @@ button {
 #save-btn {
     background: darkgreen;
 }
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: url(Background\ pubg.jpg);
+        background-size: 100vh;
+        background-position: center;
+        
+    }
+
+}
+    
 
